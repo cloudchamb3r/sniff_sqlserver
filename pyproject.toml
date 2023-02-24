@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sniff-sqlserver"
+version = "0.1.0"
+description = ""
+authors = ["cloudchamb3r <jizon0123@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "sniff_sqlserver"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scapy = "^2.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
